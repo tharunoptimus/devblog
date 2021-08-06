@@ -1,11 +1,11 @@
 const blogs = require("./database.json");
 import BlogCard from "../components/blogCard";
 
-export default function sendProps () {
+function blogsGrid() {
 
     let things = blogs.map((blog) => {
         return (
-            <BlogCard key={blog.id} props={blog} />
+            <BlogCard key={blog.id} blog={blog} />
         );
     })
 
@@ -32,8 +32,9 @@ export default function sendProps () {
                 
                 
             `}</style>
+
         </div>
     )
-
-    
 }
+
+export default blogsGrid

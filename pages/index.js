@@ -1,10 +1,12 @@
-import sendProps from "./blogs";
+import blogsGrid from "./blogs";
 import HomeHeader from "../components/homeHeader";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function Home() {
-	let things = sendProps();
+
+	let things = blogsGrid();
+	
 	return (
 		<div className="container">
 
