@@ -1,52 +1,37 @@
-import Head from 'next/head'
+import sendProps from "./blogs";
+import HomeHeader from "../components/homeHeader";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+	let things = sendProps();
+	return (
+		<div className="container">
 
-      <main>
-        <h1 className="title">
-          Blog
-        </h1>
-        <h3 className="title subTitle">
-          Tips for Web Devs
-        </h3>
+			<Header title={"Dev Blog"} />
 
-        
-      </main>
+			<main>
+				<HomeHeader />
+				{things}
+				<Footer />
 
-      <style jsx>{`
-        
-        .title {
-          text-align: center;
-          margin: 0;
-          font-size: 2rem;
-        }
+			</main>
 
-        .subTitle {
-          font-size: 1rem;
-        }
-        
-      `}</style>
 
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
+			<style jsx global>{`
+				html,
+				body {
+					padding: 0;
+					margin: 0;
+					font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+						Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+						Helvetica Neue, sans-serif;
+				}
 
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  )
+				* {
+					box-sizing: border-box;
+				}
+			`}</style>
+		</div>
+	);
 }

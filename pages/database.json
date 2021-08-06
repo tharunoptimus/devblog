@@ -2,21 +2,42 @@
     {
         "id": "1",
         "heading": "Centering a Div",
-        "image": "centerADivBlogImage.png",
+        "image": "/images/centerADivBlogImage.png",
         "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
         "url": "center-a-div-using-css"
     },
     {
         "id": "2",
         "heading": "Centering a Div",
-        "image": "centerADivBlogImage.png",
+        "image": "/images/centerADivBlogImage.png",
         "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
         "url": "center-a-div-using-css"
     },
     {
         "id": "3",
         "heading": "Centering a Div",
-        "image": "centerADivBlogImage.png",
+        "image": "/images/centerADivBlogImage.png",
+        "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
+        "url": "center-a-div-using-css"
+    },
+    {
+        "id": "4",
+        "heading": "Centering a Div",
+        "image": "/images/centerADivBlogImage.png",
+        "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
+        "url": "center-a-div-using-css"
+    },
+    {
+        "id": "5",
+        "heading": "Centering a Div",
+        "image": "/images/centerADivBlogImage.png",
+        "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
+        "url": "center-a-div-using-css"
+    },
+    {
+        "id": "6",
+        "heading": "Centering a Div",
+        "image": "/images/centerADivBlogImage.png",
         "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
         "url": "center-a-div-using-css"
     }
