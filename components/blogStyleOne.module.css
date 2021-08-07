@@ -1,0 +1,51 @@
+.mainImageContainer {
+    display: grid;
+    place-items: center;
+}
+
+.mainContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mainContentDescription {
+    text-align: justify;
+    font-size: 18px;
+    color: #444444;
+}
+
+.mainContentDescriptionSubHeading {
+    font-size: 20px;
+    color: #202124;
+}
+
+.actualCodeContainer p {
+    margin: 1px;
+}
+
+.codeContainerParagraph span {
+    margin: 1px;
+    display: inline-block;
+}
+
+.green {
+    color: #9fca56;
+}
+.purple {
+    color: #a074c4;
+}
+.red {
+    color: #cd3f45;
+}
+.blue {
+    color: #55b5db;
+}
+.white {
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .mainContent {
+        padding: 24px;
+    }
+}
