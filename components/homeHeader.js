@@ -3,7 +3,7 @@ function homeHeader() {
 		<div className="homeHeaderContainer">
 			<div className="homeHeader">
 				<h1 className="title">Blog</h1>
-				<h3 className="title subTitle">Tips for Web Devs</h3>
+				<h2 className="title subTitle">Tips for Web Devs</h2>
 			</div>
 
 			<style jsx>{`
@@ -27,11 +27,13 @@ function homeHeader() {
 					margin: 0;
 					font-size: 56px;
 					margin-bottom: 11px;
+					font-weight: 300;
 				}
 
 				.subTitle {
 					font-size: 1rem;
 					margin-bottom: 12px;
+					font-weight: 300;
 				}
 			`}</style>
 		</div>

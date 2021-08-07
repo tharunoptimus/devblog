@@ -44,6 +44,19 @@
     color: #fff;
 }
 
+.codeTag {
+    background: #f7f7f7;
+    border: 1px solid #dadce0;
+    color: #202124;
+    font: 1rem/1.5em SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;
+    hyphens: none;
+    tab-size: 2;
+    text-align: left;
+    word-spacing: normal;
+    margin: 0 .25em;
+    padding: .125em .25em;
+}
+
 @media (max-width: 480px) {
     .mainContent {
         padding: 24px;
