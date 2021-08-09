@@ -8,9 +8,9 @@
     },
     {
         "id": "2",
-        "heading": "Centering a Div",
-        "image": "/images/centerADivBlogImage.png",
-        "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
-        "url": "blog/center-a-div-using-css"
+        "heading": "Develop a Service Worker",
+        "image": "/images/developASWBlogImage.png",
+        "description": "Develop a service worker to cache all assets and make it online first service worker",
+        "url": "blog/develop-a-service-worker"
     }
 ]
