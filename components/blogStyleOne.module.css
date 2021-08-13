@@ -57,8 +57,41 @@
     padding: .125em .25em;
 }
 
+.preLanguage {
+    margin: 32px 0;
+    border-width: 1px;
+    border-width: 1px 0;
+    overflow: auto;
+    padding: 16px;
+    white-space: pre;
+    border: 1px solid #dadce0;
+    scrollbar-color: #80868b transparent;
+    scrollbar-width: thin;
+    
+}
+
+.language {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.preLanguage , .language {
+    background: #f7f7f7;
+    color: #202124;
+    font: 1rem/1.5em SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;
+    hyphens: none;
+    tab-size: 2;
+    text-align: left;
+    word-spacing: normal;
+}
+
 @media (max-width: 480px) {
     .mainContent {
         padding: 24px;
+    }
+    .preLanguage {
+        margin: 32px -32px;
     }
 }
