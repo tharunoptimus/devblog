@@ -3,7 +3,7 @@
         "id": "1",
         "heading": "Centering a Div",
         "image": "/images/centerADivBlogImage.png",
-        "description": "Centering a div is a common CSS technique for centering a div. It is used to center a div in the browser window.",
+        "description": "Centering a div both horizontally and vertically using these three simple techniques.",
         "url": "blog/center-a-div-using-css"
     },
     {
@@ -12,5 +12,12 @@
         "image": "/images/developASWBlogImage.png",
         "description": "Develop a service worker to cache all assets and make it online first service worker",
         "url": "blog/develop-a-service-worker"
+    },
+    {
+        "id": "3",
+        "heading": "Convert your Website into a PWA in 5 minutes.",
+        "image": "/images/converToPWABlogImage.jpg",
+        "description": "Add an offline page, a service worker and few logos to make your PWA!",
+        "url": "blog/convert-your-site-into-a-pwa"
     }
 ]

@@ -371,7 +371,7 @@ const AUTO_CACHE = [
 					find it, it will return the offline page.
 				</p>
 
-				<p className={styles.mainContentDescription}>
+				<p className={styles.mainContentDescription} id="addToHtml">
 					Now, all we have to do is make the browser to find and
 					install the service worker. Since, the home page is{" "}
 					<Code>index.html</Code> we will make the install call there.{" "}
